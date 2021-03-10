@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.main{
+    height: 500px;
+    width: 100%;
+    background-image: url(road.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.car{
+    height: 250px;
+    width: 350px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 250px;
+    right: -400px;
+    background-image: url(car3.png);
+    background-size: 100% 100%;
+    animation-name: pic;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-fill-mode: forwards; */
+    animation-direction: reverse;
+}
+@keyframes pic{
+    0%{
+        right: 100%;
+        top: 250px;
+    }
+}
+.tyre{
+    height: 70px;
+    width: 70px;
+    background-image: url(tyre.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 130px;
+    left: 65px;
+    animation-name: wheel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.tyre1{
+    height: 70px;
+    width: 70px;
+    background-image: url(tyre.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 130px;
+    left: 228px;
+    animation-name: wheel1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel1{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.car1{
+    height: 250px;
+    width: 350px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 250px;
+    right: -400px;
+    background-image: url(car2.png);
+    background-size: 100% 100%;
+    animation-name: pic;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    /* animation-fill-mode: forwards; */
+    animation-direction: reverse;
+}
+@keyframes pic1{
+    0%{
+        right: 100%;
+        top: 250px;
+    }
+}
+.tyre{
+    height: 70px;
+    width: 70px;
+    background-image: url(tyre.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 130px;
+    left: 65px;
+    animation-name: wheel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.tyre1{
+    height: 70px;
+    width: 70px;
+    background-image: url(tyre.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 130px;
+    left: 228px;
+    animation-name: wheel1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel1{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.car2{
+    height: 250px;
+    width: 350px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 250px;
+    right: -400px;
+    background-image: url(car.png);
+    background-size: 100% 100%;
+    animation-name: pic;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    /* animation-fill-mode: forwards; */
+    animation-direction: reverse;
+}
+@keyframes pic1{
+    0%{
+        right: 100%;
+        top: 250px;
+    }
+}
+.tyre2{
+    height: 80px;
+    width: 80px;
+    background-image: url(tyre.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 130px;
+    animation-name: wheel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.tyre3{
+    height: 80px;
+    width: 80px;
+    background-image: url(tyre.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    animation-name: wheel1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel1{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.plan{
+    height: 200px;
+    width: 600px;
+    background-image: url(plane.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: -600px;
+    animation-name: aro;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    z-index: 1;
+}
+@keyframes aro{
+    0%{
+        right: 100%;
+        top: 0;
+    }
+}
+.man{
+    height: 100px;
+    width: 100px;
+    background-image: url(man.GIF);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -200px;
+    right: 160px;
+    animation-name: drop;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+@keyframes drop{
+    0%{
+        top: 300px;
+    }
+}
